@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         Toast.makeText(MainActivity.this, "Shared", Toast.LENGTH_SHORT).show();
                         bottomSheetDialog.dismiss();
+
                     }
                 });
                 bottomSheetDialog.setContentView(bottomSheetView);

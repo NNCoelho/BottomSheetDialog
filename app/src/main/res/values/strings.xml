@@ -5,7 +5,7 @@
     <string name="websites_apps_and_games">Websites/Apps and Games</string>
     <string name="_7_h">€7/h</string>
     <string name="add_to_favorites">Add to Favorites</string>
-    <string name="share_via">Share Via...</string>
+    <string name="share_via">Share Via</string>
     <string name="share">Share</string>
     <string name="show_bottom_sheet">Show Bottom Sheet</string>
 </resources>
