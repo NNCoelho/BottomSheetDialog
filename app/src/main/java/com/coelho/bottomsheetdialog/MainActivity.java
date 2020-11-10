@@ -25,11 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(
                         MainActivity.this, R.style.BottomSheetDialogTheme
                 );
+
                 View bottomSheetView = LayoutInflater.from(getApplicationContext())
                         .inflate(
                                 R.layout.layout_bottom_sheet,
                                 (LinearLayout) findViewById(R.id.bottomSheetContainer)
                         );
+
                 bottomSheetView.findViewById(R.id.buttonShare).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
